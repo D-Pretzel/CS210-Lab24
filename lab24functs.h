@@ -8,6 +8,7 @@
 
 #ifndef LAB24FUNCTS_H
 #define LAB24FUNCTS_H
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

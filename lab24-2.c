@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "lab24functs.h"
 
 int main() {
@@ -15,8 +16,8 @@ int main() {
     // FOLLOW THE LAB INSTRUCTIONS BEFORE WRITING CODE!
     // Call getNumRecs() with the appropriate parameters
     // Store the result in a variable
-    char filename[100];
-    printf("Enter the name of the file: ");
+    char* filename = (char*)malloc(10 * sizeof(char));
+    printf("Enter the name of the file: \n");
     scanf("%s", filename);
 
     int numRecs = getNumRecs(filename);
